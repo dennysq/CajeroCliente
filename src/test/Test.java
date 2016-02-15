@@ -25,6 +25,7 @@ public class Test {
             //Thread.currentThread().setContextClassLoader(Test.class.getClassLoader());
 
             Properties prop = new Properties();
+            //aqui va la ip donde se encuentra el servidor glassfish que contiene los EJB remotos.
             prop.put("org.omg.CORBA.ORBInitialHost", "127.0.0.1");
             prop.put("org.omg.CORBA.ORBInitialPort", "3700");
             prop.put("java.naming.factory.initial", "com.sun.enterprise.naming.SerialInitContextFactory");
