@@ -5,4 +5,6 @@ Se usa glassfish 4.1 64bits, jdk 1.7.<br/>
 ####Pasos:<br/>
 1) Descomprimir el archivo appclient.jar en una dirección en el disco duro, preferiblemente sin espacios, como por ejemplo en el Disco C:<br/>
 2) Agregar como dependencia del proyecto a 'corebancario-ejb-1.jar' y 'gf-client.jar' (Este archivo se encuentra en C:\appclient\glassfish\lib\gf-client.jar en caso de que en el paso anterior el archivo se descomprimió en el disco C). <br/>
+3) Cambiar la dirección ip del servidor glassfish en el archivo Test.java<br/>
+4) Ejecutar el proyecto
 
